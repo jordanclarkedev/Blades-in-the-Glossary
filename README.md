@@ -1,9 +1,7 @@
 # Blades in the Dicebot
 A Discord bot custom made for Blades in the Dark.
 
-Designed to help newer players more easily understand their character and crew sheet, and to reduce the GM's need to look information up.
-
-Designed to work with Blades in the Dicebot, and Clocks in the Dark.
+Designed to help newer players more easily understand their character and crew sheet, and to reduce the GM's need to look information up. Works with Blades in the Dicebot, and Clocks in the Dark.
 
 If you've found any issues or improvements it could use, file a bug!
 
