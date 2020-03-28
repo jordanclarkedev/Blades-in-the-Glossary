@@ -41,4 +41,4 @@ The link will prompt you to authorize the bot on a server. Once the bot's author
 
 ` $glossary ` Defines common terms.
 
-\` $items \` Describes the standard items.
+` $items ` Describes the standard items.
