@@ -1,4 +1,5 @@
 module.exports.actions = `**Actions**
+
 \` $attune \` Attune: You open your mind to the ghost field or channel electroplasmic energy.
 \` $command \` Command: You compel swift obedience. 
 \` $consort \` Consort: You socialize with friends and contacts.

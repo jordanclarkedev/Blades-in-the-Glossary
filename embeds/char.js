@@ -56,7 +56,7 @@ module.exports.char6 = `**6. Choose a close friend & a rival.**
 Each playbook has a list of NPCs that your character knows. Choose one from the list who is a close relationship (a good friend, a lover, a family relation, etc.). Mark the upward-pointing triangle next to their name. Then choose another NPC on the list who’s your rival or enemy. Mark the downward-pointing triangle next to their name.`;
 
 module.exports.char7 = `**7. Choose your vice.**
-Every scoundrel is in thrall to some vice or another, which they indulge to deal with stress. Choose a vice from the list, and describe it on the line above with the specific details and the name and location of your vice purveyor in the city. For example, you might choose Gambling, then write Spogg’s dice game, Crow’s Foot. You can create a vice purveyor or ask the GM to tell you about a couple likely options for your vice. See a detailed list of vice purveyors on page 299.
+Every scoundrel is in thrall to some vice or another, which they indulge to deal with stress. Choose a vice from the list, and describe it on the line above with the specific details and the name and location of your vice purveyor in the city. For example, you might choose Gambling, then write Spogg’s dice game, Crow’s Foot. You can create a vice purveyor or ask the GM to tell you about a couple likely options for your vice. See a detailed list of vice purveyors on page 299, or try \` $purveryor \`.
 
 **Faith**: You’re dedicated to an unseen power, forgotten god, ancestor, etc.
 **Gambling**: You crave games of chance, betting on sporting events, etc.

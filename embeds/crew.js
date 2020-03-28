@@ -19,12 +19,11 @@ Look at the map and pick a district in which to place your hunting grounds. Deci
 
 - Pay them 1 coin.
 - Pay them 2 coin. Get +1 status.
-- Pay nothing. Get -1 status.
-`;
+- Pay nothing. Get -1 status.`;
 
 module.exports.crew4 = `**4. Choose a special ability.**
-They’re in the gray column in the middle of the crew sheet. If you can’t decide, choose the first ability on the list. It’s placed there as a good first option.
-`;
+They’re in the gray column in the middle of the crew sheet. If you can’t decide, choose the first ability on the list. It’s placed there as a good first option.`;
+
 module.exports.crew5 = `**5. Assign crew upgrades.**
 Your crew has two upgrades pre-selected. Choose two more. If your crew has a cohort, follow the procedure to create it. Record the faction status changes due to your upgrades:
 

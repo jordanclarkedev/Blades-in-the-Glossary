@@ -8,7 +8,8 @@ const importObj = {
 	...require('./embeds/engagement.js'),
 	...require('./embeds/districts.js'),
 	...require('./embeds/status.js'),
-	...require('./embeds/vice_trauma.js')
+	...require('./embeds/vice_trauma.js'),
+	...require('./embeds/items.js')
 }
 for(let prop in importObj){
 	module.exports[prop] = importObj[prop];
@@ -32,4 +33,6 @@ Here's how I'm used:
 \` $actions \` Briefly describes each action. More info via \` $attune \`, \` $consort \`, etc.
 \` $trauma \` Describes Trauma conditions.
 \` $status \` Describes faction status conditions.
-\` $glossary \` Defines common terms.`;
+\` $glossary \` Defines common terms.
+\` $items \` Describes the standard items.
+`;

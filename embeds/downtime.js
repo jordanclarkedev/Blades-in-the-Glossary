@@ -1,10 +1,10 @@
 module.exports.downtime = `**Downtime**
-Stage of Downtime:
+Stages of Downtime:
 
-1. \` $payoff \` 
-2. \` $heat \` 
-3. \` $entanglements \` 
-4. \` $activities \` 
+1. \` $payoff \` Get paid in Rep and Coin.
+2. \` $heat \` Determine crew's Heat.
+3. \` $entanglements \` Roll entanglements.
+4. \` $activities \` Downtime activities.
 `
 
 module.exports.payoff = `**Payoff**

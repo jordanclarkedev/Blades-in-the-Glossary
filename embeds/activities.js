@@ -49,7 +49,7 @@ You can train a given xp track only once per downtime.`
 module.exports.indulge  = `**Indulge Your Vice**
 Visit a purveyor of your vice and roll dice equal to your lowest attribute. Clear stress equal to your highest die result.
 
-\`$overindulge\` If you clear more stress levels than you had marked, you overindulge.
+\` $overindulge \` If you clear more stress levels than you had marked, you overindulge.
 
 If you do not or cannot indulge your vice during downtime, you take stress equal to your trauma.`
 
