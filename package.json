@@ -1,6 +1,6 @@
 {
   "name": "Blades in the Glossary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A bot made to help people learn BitD.",
   "main": "index.js",
   "scripts": {
