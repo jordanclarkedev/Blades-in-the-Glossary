@@ -1,0 +1,15 @@
+{
+  "name": "BitD Helpbot",
+  "version": "1.0.0",
+  "description": "A bot made to help people learn BitD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jordanclarkedev",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.0.2",
+    "dotenv": "^8.2.0"
+  }
+}
