@@ -4,7 +4,7 @@ module.exports.activities  = `**Downtime Activities**
 \` $recover \` Recover from injury
 \` $reduce \` Roll an action to reduce Heat.
 \` $train \` Gain XP.
-\` $vice \` Indulge in your vice.`;
+\` $indulge \` Indulge in your vice.`;
 
 module.exports.acquire  = `**Acquire An Asset**
 Acquire temporary use of an asset. Roll the crew's Tier. The result indicates the quality of the asset.

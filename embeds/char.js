@@ -22,14 +22,14 @@ module.exports.char1 = `**1. Choose a playbook.**
 `;
 
 module.exports.char2 = `**2. Choose a heritage.**
-Your character’s heritage describes where their family line is from. You may be of any heritage of your choice, and then decide if you’re a foreigner who has immigrated to Doskvol or if you’re a local who grew up here. When you choose a heritage, circle it on the list on your playbook, then write a detail about your family life on the line above. For example, you might choose Skovlan heritage, and then write Factory workers from Lockport, now refugees. Or you might choose Iruvian heritage and write Exiled nobility. Each heritage is described in brief, below. For more details about these people and places, see page 308.
+Your character’s heritage describes where their family line is from. You may be of any heritage of your choice, and then decide if you’re a foreigner who has immigrated to Doskvol or if you’re a local who grew up here. When you choose a heritage, circle it on the list on your playbook, then write a detail about your family life on the line above. For example, you might choose Skovlan heritage, and then write Factory workers from Lockport, now refugees. Or you might choose Iruvian heritage and write Exiled nobility. Each heritage is described in brief, below. For more details about these people and places, use the commands below.
 
-**Akorosi**: Akoros is the largest and most industrialized land in the Imperium, and is home to the capitol city as well as Duskwall itself. They’re known as a diverse conglomeration of cultures that have grown together in close proximity for centuries, somewhat like Europe.
-**Dagger Islander**: If you want to be a rootless wanderer you could be from the Dagger Isles. People there often grow up on ships and travel a lot before settling down. They’re known as corsairs and merchants who live without lightning barriers— dealing with spirits in other ways.
-**Iruvian**: If you want to be from a culture considered “foreign” by the locals, you could be from Iruvia, a rich and powerful desert kingdom far to the south. It’s another diverse land of varying cultures similar to old Persia, Egypt, and India.
-**Severosi**: If you want to be from a place considered “wild” by the rest of the empire, you could be from Severos. Outside the few Imperial settlements, most Severosi live in nomadic horse-tribes scattered across the blasted deathlands, surviving within the ruins of ancient arcane fortresses which still repel spirits.
-**Skovlander**: If you want to be from a marginalized people, you could be from Skovlan, the island kingdom just across the sea from Doskvol. Skovlan was last to be brought under Imperial rule, over the course of the 36-year Unity War (which ended only a few years ago). Many Skovlander refugees who lost their homes and jobs in the destruction of the war have come to Doskvol seeking new opportunities.
-**Tycherosi**: If you want to be weird, you can be from Tycheros. It’s a semi-mythical place, far away beyond the northern Void Sea. Everyone says that the people there are part-demon. If you choose Tycherosi heritage, also create a demonic telltale (like black shark eyes, feathers instead of hair, etc.) that marks your character.`;
+\` $akoros \` Akorosi.
+\` $daggerisles \` Dagger Islander.
+\` $iruvia \` Iruvian.
+\` $severos \` Severosi. 
+\` $skovlan \` Skovlander.
+\` $tycheros \` Tycherosi.`; 
 
 module.exports.char3 = `**3. Choose a background.**
 Your character’s background describes what they did before they joined the crew. Choose one of the general background options from the list on your playbook, then write a detail about it that’s specific to your character. For example, you could choose Labor, and then write Leviathan hunter sailor, mutineer. Or you might choose Law and write Former Bluecoat. See more examples below.
@@ -43,7 +43,8 @@ Your character’s background describes what they did before they joined the cre
 `;
 
 module.exports.char4 = `**4. Assign four dots.**
-Your playbook begins with three action dots already placed. You get to add four more dots (so you’ll have seven total). At the start of the game, no action rating may have more than two dots (unless a special ability tells you otherwise). Brief descriptions of all the actions follow, on pages 58 and 59. Assign your four dots like this:
+Your playbook begins with three action dots already placed. You get to add four more dots (so you’ll have seven total). At the start of the game, no action rating may have more than two dots (unless a special ability tells you otherwise). Brief descriptions of all the actions can be found through \` $actions \`
+Assign your four dots like this:
 
 Put one dot in any action that you feel reflects your character’s heritage.
 Put one dot in any action that you feel reflects your character’s background.
@@ -56,7 +57,7 @@ module.exports.char6 = `**6. Choose a close friend & a rival.**
 Each playbook has a list of NPCs that your character knows. Choose one from the list who is a close relationship (a good friend, a lover, a family relation, etc.). Mark the upward-pointing triangle next to their name. Then choose another NPC on the list who’s your rival or enemy. Mark the downward-pointing triangle next to their name.`;
 
 module.exports.char7 = `**7. Choose your vice.**
-Every scoundrel is in thrall to some vice or another, which they indulge to deal with stress. Choose a vice from the list, and describe it on the line above with the specific details and the name and location of your vice purveyor in the city. For example, you might choose Gambling, then write Spogg’s dice game, Crow’s Foot. You can create a vice purveyor or ask the GM to tell you about a couple likely options for your vice. See a detailed list of vice purveyors on page 299, or try \` $purveryor \`.
+Every scoundrel is in thrall to some vice or another, which they indulge to deal with stress. Choose a vice from the list, and describe it on the line above with the specific details and the name and location of your vice purveyor in the city. For example, you might choose Gambling, then write Spogg’s dice game, Crow’s Foot. You can create a vice purveyor or ask the GM to tell you about a couple likely options for your vice. See a detailed list of vice purveyors \` $purveryor \`.
 
 **Faith**: You’re dedicated to an unseen power, forgotten god, ancestor, etc.
 **Gambling**: You crave games of chance, betting on sporting events, etc.

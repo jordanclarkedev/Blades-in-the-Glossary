@@ -9,7 +9,9 @@ const importObj = {
 	...require('./embeds/districts.js'),
 	...require('./embeds/status.js'),
 	...require('./embeds/vice_trauma.js'),
-	...require('./embeds/items.js')
+	...require('./embeds/items.js'),
+	...require('./embeds/glossary.js'),
+	...require('./embeds/heritage.js')
 }
 for(let prop in importObj){
 	module.exports[prop] = importObj[prop];
