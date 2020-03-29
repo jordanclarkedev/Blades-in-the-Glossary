@@ -22,7 +22,7 @@ module.exports.char1 = `**1. Choose a playbook.**
 `;
 
 module.exports.char2 = `**2. Choose a heritage.**
-Your character’s heritage describes where their family line is from. You may be of any heritage of your choice, and then decide if you’re a foreigner who has immigrated to Doskvol or if you’re a local who grew up here. When you choose a heritage, circle it on the list on your playbook, then write a detail about your family life on the line above. For example, you might choose Skovlan heritage, and then write Factory workers from Lockport, now refugees. Or you might choose Iruvian heritage and write Exiled nobility. Each heritage is described in brief, below. For more details about these people and places, use the commands below.
+Your character’s heritage describes where their family line is from. You may be of any heritage of your choice, and then decide if you’re a foreigner who has immigrated to Doskvol or if you’re a local who grew up here. When you choose a heritage, circle it on the list on your playbook, then write a detail about your family life on the line above. For example, you might choose Skovlan heritage, and then write Factory workers from Lockport, now refugees. Or you might choose Iruvian heritage and write Exiled nobility. Each heritage is described in the commands below.
 
 \` $akoros \` Akorosi.
 \` $daggerisles \` Dagger Islander.
