@@ -3,7 +3,7 @@ Here are the districts and their modifiers. Use the appropriate command to learn
 
 \` $barrowcleft \` Barrowcleft: +1d to acquire an asset, but gain +2 HEAT.
 \` $brightstone \` Brightstone: -1d on engagement rolls; operations vs. nobles are hostile turf.
-\` $charhallow \` Charhallow: Operations vs. citizenry are hostile turf.
+\` $charhollow \` Charhollow: Operations vs. citizenry are hostile turf.
 \` $charterhall \` Charterhall: Devil’s bargain for +1d to gather information from records for 1 HEAT. 
 \` $coalridge \` Coalridge: None.
 \` $crowsfoot \` Crow's Foot: Devil’s bargain for +1d for violent action, but ghost will lash out.
@@ -26,7 +26,7 @@ The grand mansions and luxury shops of the wealthy elite.
 
 Brightstone is home to many of the wealthiest and most influential citizens of Doskvol. Its streets are broad and paved, under bright electric lights; its canals are sparkling and clean, with perfumed water; its houses are all of fine, pale marble blocks, rich timbers, and intricate ironworks. There are cultivated parks fed by radiant energy; lavish restaurants and cafes; jewelers, tailors, and other luxury shops. Street-side vendors are forbidden here, resulting in a serene, spacious atmosphere, punctuated by the occasional carriage or marching Bluecoat patrol.`;
 
-module.exports.charhallow = `**Charhallow**
+module.exports.charhollow = `**Charhollow**
 A maze of tenements and squalid row houses.
 Operations vs. citizenry are hostile turf.
 
