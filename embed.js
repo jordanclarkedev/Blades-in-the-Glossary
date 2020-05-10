@@ -1,26 +1,29 @@
 const importObj = {
-	...require('./embeds/actions.js'), 
-	...require('./embeds/activities.js'),
-	...require('./embeds/char.js'),
-	...require('./embeds/crew.js'),
-	...require('./embeds/districts.js'),
-	...require('./embeds/downtime.js'),
-	...require('./embeds/engagement.js'),
-	...require('./embeds/districts.js'),
-	...require('./embeds/status.js'),
-	...require('./embeds/vice_trauma.js'),
-	...require('./embeds/items.js'),
-	...require('./embeds/glossary.js'),
-	...require('./embeds/heritage.js')
-}
-for(let prop in importObj){
+	...require("./embeds/actions.js"),
+	...require("./embeds/activities.js"),
+	...require("./embeds/char.js"),
+	...require("./embeds/charitems.js"),
+	...require("./embeds/crew.js"),
+	...require("./embeds/districts.js"),
+	...require("./embeds/downtime.js"),
+	...require("./embeds/engagement.js"),
+	...require("./embeds/districts.js"),
+	...require("./embeds/status.js"),
+	...require("./embeds/vice_trauma.js"),
+	...require("./embeds/items.js"),
+	...require("./embeds/glossary.js"),
+	...require("./embeds/heritage.js"),
+};
+for (let prop in importObj) {
 	module.exports[prop] = importObj[prop];
 }
 
 module.exports.help = `**Help**
-Here's how I'm used:
+Type these commands into chat.
 
-\` $help \` Will make the bot post this information into chat.     
+Note:
+Some of them have nested commands, which the bot will prompt you for.
+E.g: \` $downtime \` will list the stages of downtime + their commands. \` $payoff \`, \` $heat \`, etc.
 
 **Procedures**
 \` $engagement \` Describes the Engagement roll process.
@@ -37,4 +40,5 @@ Here's how I'm used:
 \` $status \` Describes faction status conditions.
 \` $glossary \` Defines common terms.
 \` $items \` Describes the standard items.
+Special playbook items can be found by the name of the playbook: \` $cutter \`, \` $whisper \`, etc.
 `;
