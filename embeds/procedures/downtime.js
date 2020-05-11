@@ -5,7 +5,7 @@ Stages of Downtime:
 2. \` $heat \` Determine crew's Heat.
 3. \` $entanglements \` Roll entanglements.
 4. \` $activities \` Downtime activities.
-`
+`;
 
 module.exports.payoff = `**Payoff**
 **2 REP**, +1 per Tier higher / -1 per Tier lower.
@@ -21,7 +21,7 @@ module.exports.payoff = `**Payoff**
 **TITHE**: Pay Tier - 1 COIN to crime boss.
 Refusing to Pay: Start clock for that boss’ patience running out. -1 faction status when clock fills
 
-`
+`;
 module.exports.heat = `**Heat**
 When HEAT track fills, clear it, mark a WANTED LEVEL, and roll over remaining HEAT.
 
@@ -35,22 +35,25 @@ When HEAT track fills, clear it, mark a WANTED LEVEL, and roll over remaining HE
 - Situation happened on hostile turf.
 - At war with another faction.
 
-**+2 HEAT**: If killing was involved
-`;
+**+2 HEAT**: If killing was involved`;
+
 module.exports.entanglements = `**Entanglements**
 Roll 1d per Wanted level
 
 **Heat 0-3**
-Result 1-3: Gang Trouble or Usual Suspects
-Result 4-5: Rivals or Unquiet Dead
-Result 6: Cooperation
+Result 1-3 \` $gang trouble \` or \` $usual suspects \`
+Result 4-5 \` $rivals \` or \` $unquiet dead \`
+Result 6: \` $cooperation \`
 
 **Heat 4-5**
-Result 1-3: Gang Trouble or Questioning
-Result 4-5: Reprisals or Unquiet Dead
-Result 6: Show of Force
+Result 1-3 \` $gang trouble \` or \` $questioning \`
+Result 4-5 \` $reprisals \` or \` $unquiet dead \`
+Result 6 \` $show of force \`
 
 **Heat 6+**
-Result 1-3: Flipped or Interrogation
-Result 4-5: Demonic Notice or Show of Force
-Result 6: Arrest`;
+Result 1-3 \` $flipped \` or \` $interrogation \`
+Result 4-5 \` $demonic notice \` or \` $show of force \`
+Result 6 \` $arrest \``;
+
+module.exports.entangle = module.exports.entanglement = module.exports.entangelment = module.exports.entangelments =
+	module.exports.entanglements;

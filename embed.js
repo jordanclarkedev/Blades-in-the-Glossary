@@ -1,18 +1,23 @@
 const importObj = {
-	...require("./embeds/actions.js"),
-	...require("./embeds/activities.js"),
-	...require("./embeds/char.js"),
-	...require("./embeds/charitems.js"),
-	...require("./embeds/crew.js"),
-	...require("./embeds/districts.js"),
-	...require("./embeds/downtime.js"),
-	...require("./embeds/engagement.js"),
-	...require("./embeds/districts.js"),
-	...require("./embeds/status.js"),
-	...require("./embeds/vice_trauma.js"),
-	...require("./embeds/items.js"),
-	...require("./embeds/glossary.js"),
-	...require("./embeds/heritage.js"),
+	...require("./embeds/character/actions.js"),
+	...require("./embeds/character/charitems.js"),
+	...require("./embeds/character/items.js"),
+	...require("./embeds/character/vice_trauma.js"),
+
+	...require("./embeds/charCrewCreation/char.js"),
+	...require("./embeds/charCrewCreation/crew.js"),
+
+	...require("./embeds/crew/advanceTierUpgrade.js"),
+	...require("./embeds/crew/status.js"),
+
+	...require("./embeds/procedures/activities.js"),
+	...require("./embeds/procedures/downtime.js"),
+	...require("./embeds/procedures/engagement.js"),
+	...require("./embeds/procedures/entanglements.js"),
+
+	...require("./embeds/references/districts.js"),
+	...require("./embeds/references/glossary.js"),
+	...require("./embeds/references/heritage.js"),
 };
 for (let prop in importObj) {
 	module.exports[prop] = importObj[prop];
@@ -20,10 +25,7 @@ for (let prop in importObj) {
 
 module.exports.help = `**Help**
 Type these commands into chat.
-
-Note:
 Some of them have nested commands, which the bot will prompt you for.
-E.g: \` $downtime \` will list the stages of downtime + their commands. \` $payoff \`, \` $heat \`, etc.
 
 **Procedures**
 \` $engagement \` Describes the Engagement roll process.
@@ -31,14 +33,21 @@ E.g: \` $downtime \` will list the stages of downtime + their commands. \` $payo
 \` $activites \` Lists the options for downtime activities (and the appropriate commands).
 
 **Character / Crew Creation**
-\` $char \` List all character creation steps. \` $char1 \` to \` $char9 \` for more details.
-\` $crew \` List all the creation steps.  \` $crew1 \` to \` $crew6 \` for more details.
+\` $char \` and \` $crew \` List all character and crew creation steps respectively.
 
-**Definitions**
+**Crew**
+\` $advance \` Describes the process of handling crew advancement.
+\` $tier \` Describes rep, hold and tier.
+\` $upgrade \` Lists the benefits of the crew upgrades.
+\` $status \` Describes faction status conditions.
+
+**Character**
 \` $actions \` Briefly describes each action. More info via \` $attune \`, \` $consort \`, etc.
 \` $trauma \` Describes Trauma conditions.
-\` $status \` Describes faction status conditions.
-\` $glossary \` Defines common terms.
 \` $items \` Describes the standard items.
 Special playbook items can be found by the name of the playbook: \` $cutter \`, \` $whisper \`, etc.
-`;
+
+**References**
+\` $districts \` Lists districts and their commands.
+\` $glossary \` Defines common terms.
+\` $heritages \` Gives commands for heritages.`;

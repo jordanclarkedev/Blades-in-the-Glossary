@@ -20,3 +20,5 @@ module.exports.engagement = `**Engagement Roll**
 4-5: Start in a Risky position.
 6: Start in a Controlled position.
 Crit: Overcome the initial obstacle`;
+
+module.exports.engage = module.exports.engagements = module.exports.engagement;
