@@ -1,14 +1,14 @@
 module.exports.char = `**Character Creation**
 
-\` char1 \` Choose a playbook.
-\` $char2 \`Choose a heritage.
-\` $char3 \`Choose a background.
-\` $char4 \`Assign four dots.
-\` $char5 \`Choose a special ability.
-\` $char6 \`Choose a close friend & a rival.
-\` $char7 \`Choose your vice.
-\` $char8 \`Record your name, alias, and look.
-\` $char9 \`Review your details.`;
+\` $char1 \` Choose a playbook.
+\` $char2 \` Choose a heritage.
+\` $char3 \` Choose a background.
+\` $char4 \` Assign four dots.
+\` $char5 \` Choose a special ability.
+\` $char6 \` Choose a close friend & a rival.
+\` $char7 \` Choose your vice.
+\` $char8 \` Record your name, alias, and look.
+\` $char9 \` Review your details.`;
 
 module.exports.char1 = `**1. Choose a playbook.**
 
