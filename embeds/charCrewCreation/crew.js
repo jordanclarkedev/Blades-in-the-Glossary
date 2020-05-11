@@ -1,10 +1,10 @@
 module.exports.crew = `**Crew Creation.**
 \` $crew1 \` Choose a crew type.
 \` $crew2 \` Choose an initial repuation and lair.
-\` $cre3 \` Establish your hunting grounds.
-\` $cre4 \` Choose a special ability.
-\` $cre5 \` Assign crew upgrades.
-\` $cre6 \` Choose a favourite contact.`;
+\` $crew3 \` Establish your hunting grounds.
+\` $crew4 \` Choose a special ability.
+\` $crew5 \` Assign crew upgrades.
+\` $crew6 \` Choose a favourite contact.`;
 
 module.exports.crew1 = `**1. Choose a crew type**
 The crew type determines the group’s purpose, their special abilities, and how they advance. You begin at Tier 0, with strong hold and 0 rep. You start with 2 coin.`;
