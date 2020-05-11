@@ -1,14 +1,14 @@
 module.exports.char = `**Character Creation**
 
-1. Choose a playbook.
-2. Choose a heritage.
-3. Choose a background.
-4. Assign four dots.
-5. Choose a special ability.
-6. Choose a close friend & a rival.
-7. Choose your vice.
-8. Record your name, alias, and look.
-9. Review your details.`;
+\` char1 \` Choose a playbook.
+\` $char2 \`Choose a heritage.
+\` $char3 \`Choose a background.
+\` $char4 \`Assign four dots.
+\` $char5 \`Choose a special ability.
+\` $char6 \`Choose a close friend & a rival.
+\` $char7 \`Choose your vice.
+\` $char8 \`Record your name, alias, and look.
+\` $char9 \`Review your details.`;
 
 module.exports.char1 = `**1. Choose a playbook.**
 
@@ -29,7 +29,7 @@ Your character’s heritage describes where their family line is from. You may b
 \` $iruvia \` Iruvian.
 \` $severos \` Severosi. 
 \` $skovlan \` Skovlander.
-\` $tycheros \` Tycherosi.`; 
+\` $tycheros \` Tycherosi.`;
 
 module.exports.char3 = `**3. Choose a background.**
 Your character’s background describes what they did before they joined the crew. Choose one of the general background options from the list on your playbook, then write a detail about it that’s specific to your character. For example, you could choose Labor, and then write Leviathan hunter sailor, mutineer. Or you might choose Law and write Former Bluecoat. See more examples below.
@@ -73,4 +73,4 @@ Choose a name for your character from the sample list, or create your own. If yo
 module.exports.char9 = `**9. Review your details.**
 Take a look at the details on your character sheet, especially the experience triggers for your playbook (like “Earn xp when you address a challenge with knowledge or arcane power,” for example) and the special items available to a character of your type (like the Whisper’s spirit mask, for example). You begin with access to all of the items on your sheet, so don’t worry about picking specific things—you’ll decide what your character is carrying later on, when you’re on the job (see Loadout, page 57).
 
-That’s it! Your character is ready for play. When you start the first session, the GM will ask you some questions about who you are, your outlook, or some past events. If you don’t know the answers, make some up. Or ask the other players for ideas.`
+That’s it! Your character is ready for play. When you start the first session, the GM will ask you some questions about who you are, your outlook, or some past events. If you don’t know the answers, make some up. Or ask the other players for ideas.`;
