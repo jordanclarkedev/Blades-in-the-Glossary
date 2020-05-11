@@ -20,31 +20,48 @@ The link will prompt you to authorize the bot on a server. Once the bot's author
 `$help` Will make the bot post this information into chat:
 
 **Help**
-Type these commands into chat.
-Some of them have nested commands, which the bot will prompt you for.
+
+Type these commands into chat. Some of them have nested commands, which the bot will prompt you for.
 
 **Procedures**
+
 `$engagement` Describes the Engagement roll process.
+
 `$downtime` Lists the phases for running Downtime (and the appropriate commands).
+
 `$activites` Lists the options for downtime activities (and the appropriate commands).
 
 **Character / Crew Creation**
+
 `$char` List all character creation steps. `$char1` to `$char9` for more details.
+
 `$crew` List all the creation steps. `$crew1` to `$crew6` for more details.
 
+
 **Crew**
+
 `$advance` Describes the process of handling crew advancement.
+
 `$tier` Describes rep, hold and tier.
+
 `$upgrade` Lists the benefits of the crew upgrades.
+
 `$status` Describes faction status conditions.
 
 **Character**
+
 `$actions` Briefly describes each action. More info via `$attune`, `$consort`, etc.
+
 `$trauma` Describes Trauma conditions.
+
 `$items` Describes the standard items.
+
 Special playbook items can be found by the name of the playbook: `$cutter`, `$whisper`, etc.
 
 **References**
+
 `$districts` Lists districts and their commands.
+
 `$glossary` Defines common terms.
+
 `$heritages` Gives commands for heritages.
