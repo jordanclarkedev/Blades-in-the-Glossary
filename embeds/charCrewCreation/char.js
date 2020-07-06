@@ -68,7 +68,7 @@ Every scoundrel is in thrall to some vice or another, which they indulge to deal
 **Weird**: You experiment with strange essences, consort with rogue spirits, observe bizarre rituals or taboos, etc.`;
 
 module.exports.char8 = `**8. Record your name, alias, and look.**
-Choose a name for your character from the sample list, or create your own. If your character uses an alias or nickname in the underworld, make a note of it. Record a few evocative words that describe your character’s look (samples provided on the next page).`;
+Choose a name for your character from the sample list (\` $names \`), or create your own. If your character uses an alias or nickname in the underworld, make a note of it. Record a few evocative words that describe your character’s look (samples provided on the next page).`;
 
 module.exports.char9 = `**9. Review your details.**
 Take a look at the details on your character sheet, especially the experience triggers for your playbook (like “Earn xp when you address a challenge with knowledge or arcane power,” for example) and the special items available to a character of your type (like the Whisper’s spirit mask, for example). You begin with access to all of the items on your sheet, so don’t worry about picking specific things—you’ll decide what your character is carrying later on, when you’re on the job (see Loadout, page 57).

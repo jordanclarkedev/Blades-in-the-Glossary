@@ -18,14 +18,14 @@ const importObj = {
 	...require("./embeds/references/districts.js"),
 	...require("./embeds/references/glossary.js"),
 	...require("./embeds/references/heritage.js"),
+	...require("./embeds/references/names.js"),
 };
 for (let prop in importObj) {
 	module.exports[prop] = importObj[prop];
 }
 
 module.exports.help = `**Help**
-Type these commands into chat.
-Some of them have nested commands, which the bot will prompt you for.
+Note: Some of these nested commands.
 
 **Procedures**
 \` $engagement \` Describes the Engagement roll process.
@@ -48,6 +48,7 @@ Some of them have nested commands, which the bot will prompt you for.
 Special playbook items can be found by the name of the playbook: \` $cutter \`, \` $whisper \`, etc.
 
 **References**
+\` $names \` For example names.
 \` $districts \` Lists districts and their commands.
 \` $glossary \` Defines common terms.
 \` $heritages \` Gives commands for heritages.`;
