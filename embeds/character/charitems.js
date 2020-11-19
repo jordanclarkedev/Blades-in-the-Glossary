@@ -80,25 +80,25 @@ module.exports.faris = `**Faris items**
 
 **Fine pair of pistols** A matched pair of handguns, made for greater accuracy, with double barrels that allow for two shots before reloading. Were your pistols made by Kardera’s Daughters, Templeton & Slane, the Imperial Forge, or some other gunsmith? How do they stand out from the average handgun?
 
-**Fine uniform** *No info provided*
+**Fine uniform** A suit of clothes that marks you as either a soldier of rank, or as the undisputed leader of a gang, with all the appropriate badges, medals, and chains of office. If you’re carrying this item as a second outfit to change into, it counts as 2 load
 
 **A cane-sword** A slim sword and its sheath, disguised as a noble’s cane. The disguise will fool a cursory inspection.
 
-**Entourage** *No info provided*`;
+**Entourage** Up to half a dozen bodyguards, hangers-on, and retainers who are loyal only to you. They function as a cohort (Gang: Thugs), but do not increase in scale.`;
 
 module.exports.forger = `**Forger items**
 **Fine tinkering tools** A finely crafted set of tools for detailed mechanist work. A jeweler’s loupe. Measuring devices.
 
-**Electroplasmic vials** *No info provided*
+**Electroplasm vials** *No info provided*
 
-**Forged documents** *No info provided*
+**Forged documents** Some falsified documents, made by yourself or another person you know, probably with the help of a machine of some kind.
 
 **Gadgets** You may create gadgets during downtime by Tinkering with tools and materials. See Gadgets, page 227. Track the load for each gadget you deploy during an operation.
 
-**Protective Suit** *No info provided*
+**Protective Suit** A full-body suit that can be completely sealed and hooked up to air pumps. It protects against harmful chemicals and environments, as well as ghosts. If you’re carrying this item as a second outfit to change
+into, it counts as 3 load
 
-**Silence potion vial** A vial of golden liquid that negates all sound within 10 paces of the drinker for a span of several moments.
-`;
+**Silence potion vial** A vial of golden liquid that negates all sound within 10 paces of the drinker for a span of several moments.`;
 
 module.exports.janissary = `**Janissary items**
 **Fine hand weapon** A finely crafted one-handed melee weapon of your choice. Is this a well-crafted standard weapon, like a perfectly-balanced dagger, or something exotic, like an Iruvian dueling saber or a metal-banded war-club ?
@@ -131,7 +131,7 @@ module.exports.rafiq = `**Rafiq items**
 
 **Concealed palm pistol** A small firearm with a weak charge, easily concealed in a sleeve or waistcoat. This pistol has extremely limited range; only a few feet. It’s very difficult to detect on your person, even if you’re searched.
 
-**A special friend** *No info provided*`;
+**A special friend** You have a “friend” who helps you out with your affairs, on occasion. They function as a cohort (Expert: your choice what type), and may be supernatural in nature.`;
 
 module.exports.rakshasa = `**Rakshasa items**
 **Fine shadow cloak** A hooded cloak made of rare Iruvian shadow-silk that blends into the darkness around it. This item improves your effect level when you sneak around.
@@ -151,9 +151,9 @@ module.exports.vizier = `**Vizier items**
 
 **Demonbane charm** An arcane trinket that demons prefer to avoid.
 
-**Electroplasmic vials** *No info provided*
+**Electroplasm vials** *No info provided*
 
-**Rare books** *No info provided*
+**Rare books** Numerous legal records and historical details are hidden away in books that few people pay attention to. Track the load for each book you employ during an operation.
 
 **Spirit bottles (2)** An arcane device used to trap a spirit. A metal and crystalline cylinder, the size of a loaf of bread.`;
 
